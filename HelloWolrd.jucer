@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Hr8d3N" name="HelloWolrd" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="CooYi4" name="HelloWolrd">
+    <GROUP id="{1323EF86-D21F-09A2-76C2-DD1F11491F4F}" name="Source">
+      <FILE id="T1Pk2n" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="uGEgjm" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="LA7R4q" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HelloWolrd"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HelloWolrd"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../Fork/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../Fork/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../Fork/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../Fork/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../Fork/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
